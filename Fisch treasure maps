@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisch Treasure Map Locations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #2a3d66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #2a3d66;
+        }
+        .map-location {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        .map-location:hover {
+            background-color: #f9f9f9;
+        }
+        .map-location p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2a3d66;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fisch Treasure Map Locations</h1>
+        <p>Find your next treasure map location in the game Fisch on Roblox!</p>
+    </header>
+
+    <div class="container">
+        <h2>Treasure Map Locations</h2>
+
+        <!-- Location 1 -->
+        <div class="map-location">
+            <h3>Location 1: The Mysterious Cave</h3>
+            <p>Coordinates: (X: 123, Y: 45, Z: 678)</p>
+            <p>Hints: Look behind the waterfall to find a hidden cave entrance.</p>
+        </div>
+
+        <!-- Location 2 -->
+        <div class="map-location">
+            <h3>Location 2: The Ancient Temple</h3>
+            <p>Coordinates: (X: 456, Y: 78, Z: 234)</p>
+            <p>Hints: The temple is located deep in the jungle. Follow the path leading to the giant statue.</p>
+        </div>
+
+        <!-- Add more locations here -->
+
+    </div>
+
+    <footer>
+        <p>Website created by Fsh-cmky</p>
+    </footer>
+
+    <script>
+        // Add any interactivity you want here
+        console.log("Welcome to the Fisch Treasure Map Locations Website!");
+    </script>
+</body>
+</html>
